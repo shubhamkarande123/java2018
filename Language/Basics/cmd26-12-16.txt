@@ -1,0 +1,32 @@
+    2  mkdir Java
+    3  cd Java/
+    4  mkdir Programming
+    5  cd Programming/
+    6  mkdir Language
+    7  cd Language/
+    8  mkdir Basics
+    9  java -version
+   10  vi Hello.java
+   11  javac Hello.java
+   12  ll
+   13  java Greeter
+   14  mkdir ~/Shared/Testing
+   15  cp Greeter.class ~/Shared/Testing/
+   16  ll /usr/java/jdk1.8.0_25/bin/
+   17  cd Basics/
+   18  vi ArrayTest.java
+   19  javac ArrayTest.java 
+   20  java ArrayTest
+   21  java ArrayTest Jack Jill John
+   22  java ArrayTest Jack Jill John Jane
+   23  java ArrayTest Jack and Jill
+   24  java ArrayTest 'Jack and Jill'
+   25  java ArrayTest 'Jack and Jill' "John and Jane"
+   26  vi ForEachTest.java
+   27  javac ForEachTest.java 
+   28  java ForEachTest
+   29  java ForEachTest Jack Jill John Jane
+   30  java ForEachTest 'Jack and Jill' John Jane
+   31  cd../../..
+   32  cd ../../..
+   33  history > cmd26-12-16.txt
